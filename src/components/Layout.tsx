@@ -1,5 +1,5 @@
-import React, { ReactNode } from "react";
-import Head from "next/head";
+import React, { ReactNode } from 'react';
+import Head from 'next/head';
 
 
 interface Props {
@@ -11,7 +11,7 @@ export default function Layout({ title, children }: Props) {
   const titleName = `${title} | Next.js Starter!`;
 
   return (
-    <div>
+    <div data-testid="layout">
       <Head>
         <title>{ titleName }</title>
         <link rel="icon" href="/favicon.ico" />
