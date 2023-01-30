@@ -10,3 +10,7 @@ export const initializeCanvas = () => {
   ctx.canvas.width = canvas.clientWidth;
   ctx.canvas.height = canvas.clientHeight;
 };
+
+export const drawShape = () => {
+
+};
